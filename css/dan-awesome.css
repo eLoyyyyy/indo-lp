@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'DanAwesome';
+  src:  url('../fonts/dan-awesome.eot?xamykt');
+  src:  url('../fonts/dan-awesome.eot?xamykt#iefix') format('embedded-opentype'),
+    url('../fonts/dan-awesome.ttf?xamykt') format('truetype'),
+    url('../fonts/dan-awesome.woff?xamykt') format('woff'),
+    url('../fonts/dan-awesome.svg?xamykt#dan-awesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'DanAwesome' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-platform:before {
+  content: "\e900";
+}
+.icon-license:before {
+  content: "\e901";
+}
+.icon-dime:before {
+  content: "\e902";
+}
+.icon-percent:before {
+  content: "\e903";
+}
+.icon-casino:before {
+  content: "\e904";
+}
+.icon-egames:before {
+  content: "\e905";
+}
+.icon-lottery:before {
+  content: "\e906";
+}
+.icon-poker:before {
+  content: "\e907";
+}
+.icon-racing:before {
+  content: "\e908";
+}
+.icon-sports:before {
+  content: "\e909";
+}
+
